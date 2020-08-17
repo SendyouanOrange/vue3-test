@@ -1,0 +1,71 @@
+/* color */
+@ucan-color-brand: #3ABA96;
+
+@ucan-color-gray1: #333333;
+@ucan-color-gray2: #666666;
+@ucan-color-gray3: #999999;
+@ucan-color-gray4: #C6C6C6;
+@ucan-color-gray5: #E0E0E0;
+@ucan-color-gray6: #EEEEEE;
+@ucan-color-gray7: #F5F5F5;
+@ucan-color-gray8: #FAFAFA;
+@ucan-color-secondary1: #ECFAF7;
+
+@ucan-color-success: #5ABB3C;
+@ucan-color-warning: #FF9801;
+@ucan-color-danger: #FF5046;
+@ucan-color-info: #3ABA96;
+
+@ucan-color-success-light: #ECFAF7;
+@ucan-color-warning-light: #FF9801; 
+@ucan-color-danger-light: #FFE2E2;
+@ucan-color-info-light: #3ABA96; 
+
+/* font */
+@ucan-font-size-extra-huge-large: 30px;
+@ucan-font-size-extra-large: 22px;
+@ucan-font-size-large: 18px;
+@ucan-font-size-medium: 16px;
+@ucan-font-size-base: 14px;
+@ucan-font-size-extra-small: 12px;
+
+@ucan-font-weight-bold: 600;
+@ucan-font-weight-medium: 500;
+@ucan-font-weight-regular: 400;
+
+/* 临时颜色抽取，对于UI不放入规范的部分，此处标注用处 */
+
+@ucan-color-with-alpha: rgba(0,0,0,0.16); // 边框阴影
+
+// 字体规格
+.font-bold {
+  font-family: PingFangSC-Medium,PingFang SC, Microsoft YaHei, Arial, sans-serif;
+  font-weight: @ucan-font-weight-bold;
+}
+
+.font-regular {
+  font-family: PingFangSC-Regular,PingFang SC, Microsoft YaHei, Arial, sans-serif;
+  font-weight: @ucan-font-weight-regular;
+}
+
+body {
+  margin: 0;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
+}
